@@ -1,10 +1,11 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
 
 const Profile = () => {
   return (
-    <Container className="text-left mt-5">
+    <Container className="text-left mt-5 d-flex">
       <Row className='justify-content-between align-items-center'>
         <Col md={6}  className="">
           <h1><strong>Hi, I'm Mohit Patil.</strong></h1>
